@@ -1,0 +1,60 @@
+.container {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2b74e4;
+}
+
+button:focus {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.version-info {
+  font-size: 12px;
+  color: gray;
+}
+
+.donate {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.donate a {
+  text-decoration: none;
+  color: #4285f4;
+}
+
+.donate a:hover {
+  text-decoration: underline;
+}
